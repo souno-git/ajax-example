@@ -1,0 +1,88 @@
+<!--
+作者:沈雅
+时间:2015-12-20
+版权:GPLv2
+用于实验室数据传感器读取
+-->
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>嵌入式实验室管理系统</title>
+</head>
+<script language="javascript" src="./sy.js"></script><!-- javascript 脚本-->
+<body>
+<!--温度表开始-->
+<table align="center" border="1">
+    <tr align="center" bgcolor="gray">
+        <th>
+
+        </th>
+        <th>
+            <img src="img/1_003.png"  alt="传感器１" />
+        </th>
+        <th>
+            <img src="img/2_003.png"  alt="传感器２" />
+        </th>
+        <th>
+            <img src="img/3_003.png"  alt="传感器３" />
+        </th>
+        <th>
+            <img src="img/4_003.png"  alt="传感器４" />
+        </th>
+        <th>
+            <img src="img/5_003.png"  alt="传感器５" />
+        </th>
+
+    </tr>
+    <tr>
+        <th>
+            <p>传感器</p>
+        </th>
+        <th>
+            <p>1</p>
+        </th>
+        <th>
+            <p>2</p>
+        </th>
+        <th>
+            <p>3</p>
+        </th>
+        <th>
+            <p>4</p>
+        </th>
+        <th>
+            <p>5</p>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            温度(C)
+        </th>
+        <th>
+            <p id="tmp1">00</p>
+        </th>
+        <th>
+            <p id="tmp2">00</p>
+        </th>
+        <th>
+            <p id="tmp3">00</p>
+        </th>
+        <th>
+            <p id="tmp4">00</p>
+        </th>
+        <th>
+            <p id="tmp5">00</p>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button onclick="freshening()">刷新</button>
+            <!--onclick 表示此处调用javascript 中的函数，后面给出此例对应的javascript 程序-->
+        </th>
+    </tr>
+</table>
+<!--温度表结束-->
+
+</body>
+</html>
